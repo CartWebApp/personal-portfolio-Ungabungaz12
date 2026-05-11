@@ -33,17 +33,19 @@
     <section id="form">
         <h2>Or send me a message!</h2>
         <form name="contact" netlify>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit" onclick="thankYou()">Send</button>
-        </form>
+            <p>
+              <label>Name <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Email <input type="email" name="email" /></label>
+            </p>
+            <p>
+             <label>Message <textarea rows="5" cols="40" name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
     </section>
 </body>
 <script src="script.js"></script>
