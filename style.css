@@ -3,6 +3,7 @@
     --secondary-color: #A8CBA0;
     --tertiary-color: #F8F8F8;
     --background-color: #232323; 
+    --half-opacity: rgba(23, 23, 23, 0.5    );
 }
 @font-face {
     font-family: 'K2D';
@@ -125,7 +126,7 @@ nav ul li a {
 
 #home div img{
     border-radius:8px;
-    padding: 0 0 10% 0;
+    padding: 0 0 10%  0;
 }
 
 .seemore{
@@ -221,6 +222,27 @@ p {
     font-family: 'KoHo', sans-serif;
 }
 
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--half-opacity);
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    height: 120%;
+    margin: 5% auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
 @media (max-width: 900px) {
     #content {
         grid-template-columns: 1fr;
@@ -265,7 +287,5 @@ p {
     .seemore {
         width: 90%;
     }
-
-
-
 }
+
