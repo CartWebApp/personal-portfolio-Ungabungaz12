@@ -32,7 +32,7 @@
     </section>
     <section id="form">
         <h2>Or send me a message!</h2>
-        <form name="contact" method="POST" netlify action="javascript:;" onsubmit="thankYou()">
+        <form name="contact" method="POST" action="https://formspree.io/f/meennjay">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -42,7 +42,7 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="5" required></textarea>
 
-            <button type="submit">Send</button>
+            <button type="submit" onclick="thankYou()">Send</button>
         </form>
     </section>
 </body>
